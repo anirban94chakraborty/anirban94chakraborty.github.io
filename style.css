@@ -175,7 +175,7 @@ hr.light-100 {
     font-size: 250%;
   }
 .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 95%;
   }
 .carousel-caption .btn {
     font-size: 90%;
@@ -183,6 +183,12 @@ hr.light-100 {
   }
 .carousel-indicators {
     display: none;
+  }
+#resume {
+  text-align: center;
+  }
+figure {
+  display: none;
   }
 .display-4 {
     font-size: 160%;
