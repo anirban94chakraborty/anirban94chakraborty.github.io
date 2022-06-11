@@ -67,7 +67,28 @@ html, body {
   margin-bottom: 1rem;
 }
 
-#skill-logo .fa-globe {
+#tech-skills .devicons {
+  font-size: 4rem !important;
+  border-radius: 60px !important;
+  border-color: #222 !important;
+}
+
+#tech-skills mark {
+  border-radius: 20px;
+}
+
+#tech-skills .languages, #tech-skills .frameworks {
+  border: 2px solid rgb(229, 200, 200);
+  border-top: none;
+  /* border-right: none; */
+  border-radius: 20px;
+}
+
+#tech-skills .card-text {
+  font-size: 1.1rem;
+}
+
+#skills-logo .fa-laptop-code {
   color: #e54d26;
 }
 .fa-database {
@@ -76,7 +97,7 @@ html, body {
 .fa-cubes {
   color: #2163af;
 }
-#skill-logo .fa-globe, .fa-database, .fa-cubes {
+#skills-logo .fa-laptop-code, .fa-database, .fa-cubes {
   font-size: 4em;
   margin: 1rem;
 }
